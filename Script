@@ -3,7 +3,7 @@ local Window = OrionLib:MakeWindow({IntroText = "By SPEED",Name = "Gangster Hub 
 
 local Tab = Window:MakeTab({
 	Name = "Player",
-	Icon = "rbxassetid://15862434941",
+	Icon = "rbxassetid://3294087804",
 	PremiumOnly = false
 })
 
