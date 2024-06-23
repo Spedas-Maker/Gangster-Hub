@@ -3,7 +3,7 @@ local Window = OrionLib:MakeWindow({IntroText = "By SPEED",Name = "Gangster Hub 
 
 local Tab = Window:MakeTab({
 	Name = "Player",
-	Icon = "rbxassetid://3294087804",
+	Icon = "rbxassetid://15862434941",
 	PremiumOnly = false
 })
 
@@ -22,8 +22,8 @@ for i,v in next, game:GetService('Players'):GetPlayers() do
 if v.Name ~= game:GetService('Players').LocalPlayer.Name then
 pcall(function()
 v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
-v.Character.HumanoidRootPart.Transparency = 0.7
-v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue")
+v.Character.HumanoidRootPart.Transparency = 0.9
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("White")
 v.Character.HumanoidRootPart.Material = "Neon"
 v.Character.HumanoidRootPart.CanCollide = false
 end)
