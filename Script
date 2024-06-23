@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "by SPEED",Name = "Gangster Hub | Universal", HidePremium = false, SaveConfig = true, ConfigFolder = ""})
+local Window = OrionLib:MakeWindow({IntroText = "By SPEED",Name = "Gangster Hub | Universal", HidePremium = false, SaveConfig = true, ConfigFolder = ""})
 
 local Tab = Window:MakeTab({
 	Name = "Player",
@@ -481,7 +481,7 @@ end
 })
 
 Tab: AddButton({
-	Name = "Sever hop",
+	Name = "Server hop",
 	Callback = function(value)
 		print(value)
 local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
